@@ -1,0 +1,43 @@
+81% de armazenamento usado … Se você ficar sem espaço, não poderá salvar arquivos no Drive nem usar o Gmail. Aproveite 30 GB de armazenamento por R$ 4,50 R$ 0 durante um mês.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <title>CYBERTECH</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="/src/img/logo.png" width="128" height="128" alt="Logo CYBERTECH">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/src/pages/index.html">Início</a></li>
+                <li><a href="/src/pages/sobre.html">Sobre</a></li>
+                <li><a href="/src/pages/parcerias.html">Parcerias</a></li>
+                <li><a href="/src/pages/competicao.html">Competição</a></li>
+                <li><a href="/src/pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-text">
+                <h3>CYBERTECH #0000</h3> <!-- COLOCAR O N° DA EQUIPE -->
+                <p>FTC - First Tech Challenge</p>
+                <p>SESI MORENO</p>
+                <P>equipecybertechftc@gmail.com</P>
+            </div>
+            <div class="direitos">
+                <p>&copy; 2025 CYBERTECH. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

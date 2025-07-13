@@ -1,0 +1,60 @@
+.home{
+  display: flex;
+  justify-content: space-around;
+}
+.img-proj{
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  position: relative;
+  background-position: 70%;
+}
+.overlay_parcerias{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+  opacity: 1;
+}
+.temas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+#parcerias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.importancia{
+    background-color: #f00;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 12px;
+    width: 380px;
+    height: 340px;
+    border-radius: 12px;
+}
+.paragrafo{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 4%;
+}

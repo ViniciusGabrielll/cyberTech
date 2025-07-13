@@ -1,0 +1,187 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  padding: 8px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #800000;
+}
+.logo {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  font-weight: 700;
+  color: #ffffff;
+  display: inline-block;
+  transition: 0.3s;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  padding: 0 40px;
+}
+header ul li a:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+}
+
+.home{
+  display: flex;
+  justify-content: space-around;
+}
+.img-proj{
+  width: 100%;
+  height: 460px;
+  background-size: cover;
+  position: relative;
+  background-position: 70%;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+  opacity: 1;
+}
+
+section{
+    padding: 28px 14%;
+}
+
+.equipe_referencia{
+  font-size: 14px;
+  color: #f00;
+  font-weight: 600;
+}
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 12%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.descricao{
+  text-align:justify;
+}
+.apresentacao img{
+    width: 300px;
+    height: 150px;
+    display: flex;
+}
+.auxiliar{
+  display: flex;
+  margin: 8px;
+}
+footer{
+    padding: 28px 14%;
+    background-color: rgb(184, 0, 0);
+    width: 100%;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    background-color: rgb(184, 0, 0);
+    width: 100%;
+    margin: 12px auto;
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.inicio-pagina{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+.container-informativos{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.caixota{
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+}
+.informativo-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixota-textos{
+  background-color: #800000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+.caixota-textos p{
+  padding: 8px 4%;
+}
+.titulo-caxota{
+  background-color: #fff;
+  width: 90px;
+  height: 40px;
+  color: #800000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.saiba_mais{
+  display: flex;
+  flex-direction: row;
+}
+.saiba_mais a{
+  margin-left: 8px;
+  color: #fff;
+}
+
+.informativo-steam{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}

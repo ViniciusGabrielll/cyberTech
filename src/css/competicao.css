@@ -1,0 +1,98 @@
+.home{
+  display: flex;
+  justify-content: space-around;
+}
+.img-proj{
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  position: relative;
+  background-position: 70%;
+}
+.overlay_parcerias{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+  opacity: 1;
+}
+.temas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#competicao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.importancia_first{
+    background-color: #f00;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 12px;
+    width: 380px;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+    margin: 16px auto;
+}
+.titulo_firts{
+    color: #f00;
+    background-color: #fff;
+    border-radius: 12px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragrafo_firts{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 4%;
+}
+
+.importancia_ftc{
+    background-color: #fff;
+    color:#f00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 12px;
+    width: 380px;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+    margin: 16px auto;
+}
+.titulo_ftc{
+    color: #fff;
+    background-color: #f00;
+    border-radius: 12px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragrafo_ftc{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 4%;
+}
